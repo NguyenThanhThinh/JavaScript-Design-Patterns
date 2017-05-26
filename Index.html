@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Design Patterns</title>
+</head>
+<body>
+
+    <h1>JavaScript Design Patterns</h1><br />
+    <h2>Why we need Design Patterns?</h2>
+    <ul>
+        <li>Modularity</li>
+        <li>
+            Easy maintenance
+        </li>
+        <li>
+            No duplicate function names
+        </li>
+        <li>
+            Don't pollute the global scope
+        </li>
+    </ul>
+
+    <h2>Prototype</h2>
+    <h4><strong>Pros:</strong></h4>
+    <ul>
+        <li>
+            Variables / functions are NOT in the global scope
+        </li>
+        <li>
+            Functions loaded into memory once
+        </li>
+        <li>
+            Possible to "override" functions through prototyping
+        </li>
+    </ul>
+    <h4><strong>Cons:</strong></h4>
+    <ul>
+        <li>
+            "this" can be tricky
+
+        </li>
+        <li>
+            Constructor separate from prototype definition
+
+        </li>
+
+    </ul>
+    <h4><strong>Summary</strong></h4>
+
+    <blockquote>
+        <ul>
+            <li>
+                Prototype pattern leverages intrinsic JavaScript functionality
+            </li>
+            <li>
+                Comprised of a constructor and a prototype
+            </li>
+            <li>
+                Provides extension capabilities
+            </li>
+        </ul>
+    </blockquote>
+    <h2>Module</h2>
+    <h4><strong>Pros:</strong></h4>
+    <ul>
+        <li>
+            Variables / functions are NOT in the global scope
+        </li>
+        <li>
+            Expose only public members
+
+        </li>
+        <li>
+            Hide internal data and functions
+
+        </li>
+    </ul>
+    <h4><strong>Cons:</strong></h4>
+    <ul>
+        <li>
+            Not easy to extend
+
+
+        </li>
+
+    </ul>
+    <h4><strong>Summary</strong></h4>
+
+    <blockquote>
+        <ul>
+            <li>
+                Module pattern provides encapsulation of variables and functions
+
+            </li>
+            <li>
+                Provides a way to add visibility to members
+
+            </li>
+         
+        </ul>
+    </blockquote>
+
+
+
+    <h2>Revealing Module</h2>
+    <h4><strong>Pros:</strong></h4>
+    <ul>
+        <li>
+            Variables / functions taken out of the global namespace
+        </li>
+        <li>
+            Expose only visible members
+
+        </li>
+        <li>
+            "Cleaner" way to expose public members
+
+
+        </li>
+        <li>Easy to change members privacy</li>
+    </ul>
+    <h4><strong>Cons:</strong></h4>
+    <ul>
+        <li>
+            Not easy to extend
+
+        </li>
+
+    </ul>
+    <h4><strong>Summary</strong></h4>
+
+    <blockquote>
+        <ul>
+            <li>
+                Revealing Module Pattern provides encapsulation of variables and functions
+
+
+            </li>
+            <li>
+                Provides a way to add visibility to members
+
+            </li>
+            <li>Cleaner way to expose public members</li>
+
+        </ul>
+    </blockquote>
+</body>
+</html>
